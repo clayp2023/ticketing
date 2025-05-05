@@ -3,12 +3,7 @@ import { app } from './app';
 
 const startUp = async () => {
 
-<<<<<<< HEAD
-    console.log('hi');
-=======
-    console.log('Starting up...');
-
->>>>>>> 18c263548237e29445b0c405e9568df647241a83
+    console.log('starting up now...');
     //ensure environment variables are defined
     if(!process.env.JWT_KEY){
         throw new Error('JWT_KEY must be defined');
