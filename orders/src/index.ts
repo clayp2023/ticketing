@@ -8,7 +8,7 @@ import { PaymentCreatedListener } from './events/listeners/payment-created-liste
 
 const startUp = async () => {
 
-    console.log('testing a message for a git change.dsfsdf..');
+    console.log('starting...');
     
     //ensure environment variables are defined
     if(!process.env.JWT_KEY){
