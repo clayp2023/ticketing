@@ -5,6 +5,7 @@ const startUp = async () => {
 
     console.log('starting up now...');
     console.log('second comment');
+    console.log('Auth Service, third comment');
     //ensure environment variables are defined
     if(!process.env.JWT_KEY){
         throw new Error('JWT_KEY must be defined');
